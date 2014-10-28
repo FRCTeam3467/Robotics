@@ -4,6 +4,7 @@ Skip-5.4
 The following project contains the code necessary to build Skip-5.4, team 3467's 2014 robot.
 
 In order to build and deploy code:
+
 1. Install eclipse on your development machine
    If this is not already installed, download "Eclipse IDE for Java" from:
       https://www.eclipse.org/downloads/
