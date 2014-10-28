@@ -1,7 +1,7 @@
-WingMan
-=======
+Skip-5.3
+========
 
-The following project contains the code necessary to build Wingman, team 3467's 2013 robot.
+The following project contains the code necessary to build Skip-5.3, team 3467's 2013 robot.
 
 In order to build and deploy code:
 1. Install eclipse on your development machine
@@ -75,18 +75,18 @@ In order to build and deploy code:
    
    Now, on the Installed JREs, click on the check box next to "Java 1.7" to make it the default. Click Ok.
    
-6. Create a short cut to allow the Skip5.3 project to be built.
-   Expand the Skip5.3 project from the package explorer.
+6. Create a short cut to allow the Skip-5.3 project to be built.
+   Expand the Skip-5.3 project from the package explorer.
    Select build.xml, now right click and specify "Run as" and "External Tools Configurations".
    Double click on "Ant build" on the left ant pane.
    
-   On the top above the right pane, specify a name "Build and deploy skip5.3"
+   On the top above the right pane, specify a name "Build and deploy Skip-5.3"
    Click on the targets tab in the right pane.
    Now click on the "jar-app" and "deploy" check boxes to select these.
    The text box on the bottom should show "jar-app, deploy".
    Click Run.
    If prompted to save this, click Ok.
    
-7. To rebuild/redeploy Skip5.3
+7. To rebuild/redeploy Skip-5.3
    Select run from the menu bar, then External Tools -> Build and deploy Skip 5.3"
    
