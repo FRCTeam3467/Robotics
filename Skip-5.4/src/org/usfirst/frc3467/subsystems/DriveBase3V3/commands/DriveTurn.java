@@ -50,7 +50,7 @@ public class DriveTurn extends CommandBase {
 	}
 	
 	private boolean manualSwitch() {
-		return /*( Math.abs(OI.leftJoystick.getY()) > 0.2) ||*/ (Math.abs(OI.rightJoystick.getY()) > 0.2);
+		return (Math.abs(OI.rightJoystick.getY()) > 0.2);
 	}
 	
 	protected void end() {
