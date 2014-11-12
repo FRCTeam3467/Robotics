@@ -22,9 +22,9 @@ public class DriveTank extends CommandBase {
 	
 	protected void execute() {
 		if (!Reverse.reverse)
-			driveBase.driveTank(OI.leftJoystick.getY(), OI.rightJoystick.getY());
+			driveBase.driveTank(/*OI.leftJoystick.getY(),*/OI.rightJoystick.getY(), OI.rightJoystick.getY());
 		else
-			driveBase.driveTank(-OI.rightJoystick.getY(), -OI.leftJoystick.getY());
+			driveBase.driveTank(-OI.rightJoystick.getY(), -OI.rightJoystick.getY()); //, -OI.leftJoystick.getY());
 		RobotMap.updateSensors();
 	}
 	

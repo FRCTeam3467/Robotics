@@ -17,7 +17,7 @@ public class WaitForCon extends CommandBase {
 	}
 	
 	protected void execute() {
-		if (OI.opGamepadAuto.getLeftTrigger() && (OI.rightJoystick.getRawButton(3) || OI.leftJoystick.getRawButton(3))) {
+		if (OI.opGamepadAuto.getLeftTrigger() && (OI.rightJoystick.getRawButton(3) /*|| OI.leftJoystick.getRawButton(3)*/)) {
 			ready = true;
 		}
 	}
